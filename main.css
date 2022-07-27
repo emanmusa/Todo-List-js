@@ -1,0 +1,36 @@
+body{
+    font-family:cursive;
+}
+.div1{
+    background-color:rgb(204, 67, 67);
+    text-align: center;
+    margin: 0px 200px;
+}
+.div{
+    padding: 15px;
+}
+input,textarea,button{
+    border-radius: 7px;
+}
+button{
+    padding: 8px;
+    background-color:indianred;
+    font-family: cursive;
+    font-size: medium;
+
+}
+table{
+    margin: auto;
+    margin-top: 20px;
+    border-color: black;
+    
+}
+thead{
+    background-color: rgb(206, 75, 51);
+}
+tbody{
+    background-color: rgb(204, 124, 67);
+}
+th,td{
+    padding: 10px;
+}

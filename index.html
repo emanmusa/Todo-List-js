@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!---- start form data ----->
+    <div class="div1">
+        <div class="div">
+            <label for="productName" style="display: block;padding-bottom: 7px;padding-top: 10px;">productName</label>
+            <input type="text" id="productName">
+        </div>
+        <div class="div">
+            <label for="productDec" style="display: block;padding-bottom: 7px;">productDec</label>
+            <textarea id="productDec"></textarea>
+        </div>
+        <div class="div">
+            <label for="productPrice" style="display: block;padding-bottom: 7px;">productPrice</label>
+            <input type="text" id="productPrice">
+        </div>
+
+        <button onclick="add()" id="minBtn" type="button"> addProduct </button>
+
+        <div>
+            <input onkeyup="searchPro(this.value)" type="text" id="searchProduct" placeholder="search....">
+        </div>
+
+    <!---- start table data ----->
+          
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th>index(id)</th>
+                    <th>productName</th>
+                    <th>productDec</th>
+                    <th>productPrice</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="min.js"></script>
+</body>
+</html>
